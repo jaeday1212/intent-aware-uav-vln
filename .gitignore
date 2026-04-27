@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project generated outputs, local datasets, and model weights
+outputs/
+role3_perception/outputs/
+VisDrone2019-DET-val/
+role3_perception/VisDrone2019-DET-val/
+*.pt
+*.pth
+*.onnx
+*.engine
+.DS_Store

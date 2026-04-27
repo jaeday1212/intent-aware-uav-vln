@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated outputs
+outputs/
+
+# Local datasets and model weights
+VisDrone2019-DET-val/
+*.pt
+*.pth
+*.onnx
+*.engine
