@@ -1,0 +1,31 @@
+{
+  "intent_candidates": [
+    {
+      "intent": "take_photo_of_parking_lot",
+      "target": "parking lot with cars",
+      "applicability_score": 0.9,
+      "feasibility_score": 0.8,
+      "final_score": 0.85,
+      "reason": "There are multiple cars in the parking lot, providing ample subject matter."
+    },
+    {
+      "intent": "fly_over_building",
+      "target": "building with red sign on top",
+      "applicability_score": 0.8,
+      "feasibility_score": 0.7,
+      "final_score": 0.75,
+      "reason": "The building has a distinct red sign, making it easily identifiable."
+    },
+    {
+      "intent": "inspect_roof_area",
+      "target": "roof area near buildings",
+      "applicability_score": 0.7,
+      "feasibility_score": 0.6,
+      "final_score": 0.65,
+      "reason": "Roof areas can be inspected for maintenance or damage."
+    }
+  ],
+  "source_image": "/home/nada/AirVLN_ws/intent-aware-uav-vln/role3_perception/datasets/VisDrone2019-DET-val/images/0000026_04500_d_0000033.jpg",
+  "belief_state": "/home/nada/AirVLN_ws/intent-aware-uav-vln/role3_perception/outputs/json/0000026_04500_d_0000033.json",
+  "method": "vlm_qwen2_5_vl_3b_scene_level"
+}
